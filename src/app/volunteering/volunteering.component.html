@@ -1,0 +1,15 @@
+<div class="volunteering-container">
+    <h1>Volunteerings</h1>
+    <div class="volunteering-item" *ngFor="let activity of volunteeringActivities">
+      <div class="volunteering-header">
+        <img *ngIf="activity.logo" [src]="activity.logo" alt="{{ activity.title }} Logo" class="volunteering-logo">
+        <div class="volunteering-info">
+          <h2>{{ activity.title }}</h2>
+          <h3>{{ activity.organization }}</h3>
+          <p>{{ activity.date }}</p>
+        </div>
+      </div>
+      <p>{{ activity.description }}</p>
+    </div>
+  </div>
+  

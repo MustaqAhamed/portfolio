@@ -19,6 +19,10 @@
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.0",
     "@visurel/iconify-angular": "^11.0.0",
+<<<<<<< HEAD
+=======
+    "angular-animations": "^0.11.0",
+>>>>>>> 6bcd10d (Beta commit of portfolio project)
     "bootstrap": "^3.4.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",

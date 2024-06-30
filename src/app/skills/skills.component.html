@@ -1,1 +1,16 @@
+<<<<<<< HEAD
 <p>skills works!</p>
+=======
+<div class="skills-container">
+    <h1>My Skills</h1>
+    <div class="skills-category" *ngFor="let category of skills">
+      <h2>{{ category.name }}</h2>
+      <div class="skills-list" [@skillAnimation]>
+        <span *ngFor="let skill of category.items" class="skill-item">
+          {{ skill }}
+        </span>
+      </div>
+    </div>
+  </div>
+  
+>>>>>>> 6bcd10d (Beta commit of portfolio project)

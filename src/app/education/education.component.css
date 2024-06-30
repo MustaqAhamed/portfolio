@@ -1,0 +1,119 @@
+/* Global styles */
+h1,
+h2 {
+  text-align: center;
+}
+
+.home-page {
+  text-align: center;
+}
+
+div,
+tr {
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Table styles */
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto; /* Center the table */
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
+
+/* Education section styles */
+.education-section {
+  margin-top: 20px; /* Add some spacing between the personal info and education section */
+}
+
+.education-container {
+  margin-bottom: 20px; /* Add spacing between education sections */
+}
+
+.education-item {
+  margin-bottom: 20px; /* Add spacing between education items */
+  height: 105px;
+  display: flex; /* Use flexbox to align items */
+}
+
+.education-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px; /* Adjust spacing between institution name and date */
+}
+
+.education-item p {
+  margin: 0; /* Remove default margins */
+}
+
+.education-image {
+  margin-right: 20px;
+  width: 100px; /* Adjust image width as needed */
+  height: auto;
+}
+
+.education-details {
+  flex: 1; /* Take up remaining space */
+}
+
+/* Intermediate College and High School */
+.intermediate-college-item,
+.high-school-item {
+  margin-bottom: 20px; /* Add spacing between education items */
+  display: flex; /* Use flexbox to align items */
+}
+
+.intermediate-college-item h3,
+.high-school-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px; /* Adjust spacing between institution name and date */
+}
+
+.intermediate-college-item p,
+.high-school-item p {
+  margin: 0; /* Remove default margins */
+}
+
+.high-school-logo {
+  margin-right: 20px;
+  margin-bottom: 40px; /* Add bottom margin to create gap between logo and footer */
+  width: 300px; /* Adjust image width as needed */
+  height: 105px; /* Adjust image height as needed */
+}
+
+/* New styles */
+@media only screen and (max-width: 600px) {
+  table {
+    width: 100%; /* Adjust table width for smaller screens */
+  }
+
+  .education-item,
+  .intermediate-college-item,
+  .high-school-item {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .education-image,
+  .high-school-logo {
+    margin-right: 0; /* Remove right margin for images on smaller screens */
+    height: 105px;
+    margin-bottom: 10px; /* Add bottom margin for images on smaller screens */
+  }
+}
+
+/* Footer styles */
+footer {
+  margin-top: 40px; /* Add top margin to create gap between content and footer */
+  padding-top: 20px; /* Add padding to ensure content doesn't touch the top */
+}
